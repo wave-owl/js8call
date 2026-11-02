@@ -1,0 +1,93 @@
+{
+  "gitlinks": {},
+  "vendored": [
+    {
+      "path": "contrib",
+      "repository": null,
+      "commit": null,
+      "licenses": [
+        "COPYING"
+      ],
+      "evidence": [
+        "contrib/Commander TCPIP Mesages.pdf",
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "path": "lib",
+      "repository": null,
+      "commit": null,
+      "licenses": [
+        "COPYING"
+      ],
+      "evidence": [
+        "lib/all_fft.out",
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "path": "vendor",
+      "repository": null,
+      "commit": null,
+      "licenses": [
+        "COPYING"
+      ],
+      "evidence": [
+        "vendor/CRCpp/CRC.h",
+        "CMakeLists.txt"
+      ]
+    }
+  ],
+  "models": [],
+  "external_libraries": [
+    {
+      "name": "Conditional source requirements declared by CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by debian/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "debian/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by js8call.pro",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "js8call.pro"
+      ]
+    },
+    {
+      "name": "Boost>=1.77 at default HEAD",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "FFTW3 single/threads",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Hamlib",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Qt6>=6.4 at default HEAD",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "CMakeLists.txt"
+      ]
+    }
+  ]
+}
